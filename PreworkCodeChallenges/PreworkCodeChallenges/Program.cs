@@ -8,9 +8,15 @@ namespace PreworkCodeChallenges
         {
             problem1();
 
+            Console.Clear();
+
             Problem2();
 
+            Console.Clear();
+
             Problem3();
+
+            Console.Clear();
 
             Problem4();
 
@@ -85,6 +91,7 @@ namespace PreworkCodeChallenges
             {
                 Console.WriteLine($"Sadly, {inputYear} is not a leap year.");
             }
+            Console.ReadLine();
         }
 
         private static void Problem3()
@@ -118,7 +125,7 @@ namespace PreworkCodeChallenges
             {
                 sumArray += numArray[i];
             }
-            Console.WriteLine($"The sum of all numbers: {sumArray}");
+            //Console.WriteLine($"The sum of all numbers: {sumArray}");
 
             //Loop through the array to get the product of all the numbers:
 
@@ -126,7 +133,7 @@ namespace PreworkCodeChallenges
             {
                 productArray *= numArray[i];
             }
-            Console.WriteLine($"The product of all numbers: {productArray}");
+            //Console.WriteLine($"The product of all numbers: {productArray}");
 
             //If statement for a Yes/No return:
             //If all the numbers are non-negative && sum == product return Yes, else return "No"
@@ -141,6 +148,7 @@ namespace PreworkCodeChallenges
                 message = "No";
             }
             Console.WriteLine(message);
+            Console.ReadLine();
         }
 
         private static void Problem4()
