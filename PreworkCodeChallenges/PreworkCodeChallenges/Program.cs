@@ -155,7 +155,7 @@ namespace PreworkCodeChallenges
         {
             //TODO - ask the user for the array input? 
 
-            //Defining and initializing a multidimentional array, with the sample array to start:
+            //Defining and initializing a multidimentional array, with the sample array:
 
             int[,] myArray = new int[3, 5] {
                 { 1, 2, 3, 4, 5 },
@@ -169,8 +169,8 @@ namespace PreworkCodeChallenges
             //Defining global variables:
             //int rowSum = 0;
 
-            //Defining sumArray, an int array of all the row sums:
-            int[] sumArray = new int[] { };
+            //Defining sumArray, an integer array of all the row sums:
+            int[] sumArray = new int[myArray.GetLength(0)];
 
             //Nested for statement? Access the first row of the array, loop through it and sum the numbers:
 
@@ -178,7 +178,10 @@ namespace PreworkCodeChallenges
             {
                 for (int j = 0; j < myArray.GetLength(1); j++)
                 {
-                    //rowSum += myArray[i,j];
+                    //calculate sum of row
+                    //Insert row sum into sumArray
+
+                    //rowSum += myArray[?];
 
                 }
             }
