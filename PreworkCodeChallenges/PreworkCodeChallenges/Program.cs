@@ -7,6 +7,9 @@ namespace PreworkCodeChallenges
         static void Main(string[] args)
         {
             problem1();
+
+            Problem2();
+
         }
 
         private static void problem1()
@@ -55,6 +58,29 @@ namespace PreworkCodeChallenges
             int numScore = selectedNum * numFrequncy;
 
             Console.WriteLine("The score of the number you selected is " + numScore);          
+        }
+
+        private static void Problem2()
+        {
+            Console.WriteLine("Type in a year to find out if it's a leap year: ");
+            int inputYear = Convert.ToInt32(Console.ReadLine());
+
+            Console.Clear();
+
+            if (inputYear % 4 == 0 && inputYear % 100 != 0)
+            {
+                Console.WriteLine($"Yes, {inputYear} is a leap year!");
+
+            }
+            else if (inputYear % 4 == 0 && inputYear % 100 == 0 && inputYear % 400 == 0)
+            {
+                Console.WriteLine($"Yes, {inputYear} is a leap year!");
+
+            }
+            else
+            {
+                Console.WriteLine($"Sadly, {inputYear} is not a leap year.");
+            }
         }
     }
 }
