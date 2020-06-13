@@ -12,6 +12,8 @@ namespace PreworkCodeChallenges
 
             Problem3();
 
+            Problem4();
+
         }
 
         private static void problem1()
@@ -139,6 +141,40 @@ namespace PreworkCodeChallenges
                 message = "No";
             }
             Console.WriteLine(message);
+        }
+
+        private static void Problem4()
+        {
+            //TODO - ask the user for the array input? 
+
+            //Defining and initializing a multidimentional array, with the sample array to start:
+
+            int[,] myArray = new int[3, 5] {
+                { 1, 2, 3, 4, 5 },
+                { 6, 7, 8, 9, 10 },
+                { 11, 12, 13, 14, 15 }
+            };
+
+            Console.WriteLine(myArray.GetLength(0));
+            Console.WriteLine(myArray.GetLength(1));
+
+            //Defining global variables:
+            //int rowSum = 0;
+
+            //Defining sumArray, an int array of all the row sums:
+            int[] sumArray = new int[] { };
+
+            //Nested for statement? Access the first row of the array, loop through it and sum the numbers:
+
+            for (int i = 0; i < myArray.GetLength(0); i++)
+            {
+                for (int j = 0; j < myArray.GetLength(1); j++)
+                {
+                    //rowSum += myArray[i,j];
+
+                }
+            }
+
         }
     }
 }
