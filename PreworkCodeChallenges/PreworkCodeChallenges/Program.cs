@@ -8,9 +8,15 @@ namespace PreworkCodeChallenges
         {
             problem1();
 
+            Console.Clear();
+
             Problem2();
 
+            Console.Clear();
+
             Problem3();
+
+            Console.Clear();
 
             Problem4();
 
@@ -85,6 +91,7 @@ namespace PreworkCodeChallenges
             {
                 Console.WriteLine($"Sadly, {inputYear} is not a leap year.");
             }
+
         }
 
         private static void Problem3()
