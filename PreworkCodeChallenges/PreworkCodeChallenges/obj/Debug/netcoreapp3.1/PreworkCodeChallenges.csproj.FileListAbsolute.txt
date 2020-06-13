@@ -1,0 +1,13 @@
+C:\Users\baril\source\repos\NaamaBarIlan\Prework-CodeChallenges\PreworkCodeChallenges\PreworkCodeChallenges\bin\Debug\netcoreapp3.1\PreworkCodeChallenges.exe
+C:\Users\baril\source\repos\NaamaBarIlan\Prework-CodeChallenges\PreworkCodeChallenges\PreworkCodeChallenges\bin\Debug\netcoreapp3.1\PreworkCodeChallenges.deps.json
+C:\Users\baril\source\repos\NaamaBarIlan\Prework-CodeChallenges\PreworkCodeChallenges\PreworkCodeChallenges\bin\Debug\netcoreapp3.1\PreworkCodeChallenges.runtimeconfig.json
+C:\Users\baril\source\repos\NaamaBarIlan\Prework-CodeChallenges\PreworkCodeChallenges\PreworkCodeChallenges\bin\Debug\netcoreapp3.1\PreworkCodeChallenges.runtimeconfig.dev.json
+C:\Users\baril\source\repos\NaamaBarIlan\Prework-CodeChallenges\PreworkCodeChallenges\PreworkCodeChallenges\bin\Debug\netcoreapp3.1\PreworkCodeChallenges.dll
+C:\Users\baril\source\repos\NaamaBarIlan\Prework-CodeChallenges\PreworkCodeChallenges\PreworkCodeChallenges\bin\Debug\netcoreapp3.1\PreworkCodeChallenges.pdb
+C:\Users\baril\source\repos\NaamaBarIlan\Prework-CodeChallenges\PreworkCodeChallenges\PreworkCodeChallenges\obj\Debug\netcoreapp3.1\PreworkCodeChallenges.csprojAssemblyReference.cache
+C:\Users\baril\source\repos\NaamaBarIlan\Prework-CodeChallenges\PreworkCodeChallenges\PreworkCodeChallenges\obj\Debug\netcoreapp3.1\PreworkCodeChallenges.AssemblyInfoInputs.cache
+C:\Users\baril\source\repos\NaamaBarIlan\Prework-CodeChallenges\PreworkCodeChallenges\PreworkCodeChallenges\obj\Debug\netcoreapp3.1\PreworkCodeChallenges.AssemblyInfo.cs
+C:\Users\baril\source\repos\NaamaBarIlan\Prework-CodeChallenges\PreworkCodeChallenges\PreworkCodeChallenges\obj\Debug\netcoreapp3.1\PreworkCodeChallenges.csproj.CoreCompileInputs.cache
+C:\Users\baril\source\repos\NaamaBarIlan\Prework-CodeChallenges\PreworkCodeChallenges\PreworkCodeChallenges\obj\Debug\netcoreapp3.1\PreworkCodeChallenges.dll
+C:\Users\baril\source\repos\NaamaBarIlan\Prework-CodeChallenges\PreworkCodeChallenges\PreworkCodeChallenges\obj\Debug\netcoreapp3.1\PreworkCodeChallenges.pdb
+C:\Users\baril\source\repos\NaamaBarIlan\Prework-CodeChallenges\PreworkCodeChallenges\PreworkCodeChallenges\obj\Debug\netcoreapp3.1\PreworkCodeChallenges.genruntimeconfig.cache
