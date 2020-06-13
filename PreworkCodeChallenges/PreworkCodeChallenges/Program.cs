@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace PreworkCodeChallenges
 {
@@ -6,6 +7,7 @@ namespace PreworkCodeChallenges
     {
         static void Main(string[] args)
         {
+            /*
             problem1();
 
             Console.Clear();
@@ -17,6 +19,7 @@ namespace PreworkCodeChallenges
             Problem3();
 
             Console.Clear();
+            */
 
             Problem4();
 
@@ -26,9 +29,12 @@ namespace PreworkCodeChallenges
         {
             // Request 5 numbers from 1-10 from the user:
 
-            Console.Write("Please select one numbers between 1-10:");
+            Console.Write("Please select five numbers between 1-10:");
 
             string userValues = Console.ReadLine();
+
+            //Another option to convert the whole string
+            //int userString = Convert.ToInt32(userValues);
 
             // Declare and initialize an array with the user's input, converted from char to double:
             // QUESTION - why couldn't I convert from char to int? Could I refactor this part?
@@ -167,7 +173,7 @@ namespace PreworkCodeChallenges
             Console.WriteLine(myArray.GetLength(1));
 
             //Defining global variables:
-            //int rowSum = 0;
+            
 
             //Defining sumArray, an integer array of all the row sums:
             int[] sumArray = new int[myArray.GetLength(0)];
@@ -176,16 +182,24 @@ namespace PreworkCodeChallenges
 
             for (int i = 0; i < myArray.GetLength(0); i++)
             {
+                int rowSum = 0;
+
                 for (int j = 0; j < myArray.GetLength(1); j++)
                 {
                     //calculate sum of row
                     //Insert row sum into sumArray
-
-                    //rowSum += myArray[?];
+                    rowSum += myArray[i,j];
 
                 }
+                sumArray[i] = rowSum;
+
             }
 
+
+            string returnString = String.Join(",", sumArray.Select(p => p.ToString()).ToArray());
+;
+
+            Console.WriteLine(returnString);
         }
     }
 }
