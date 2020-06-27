@@ -20,9 +20,8 @@ namespace PreworkCodeChallenges
 
             Console.Clear();
             */
-
             Problem4();
-
+            
         }
 
         private static void problem1()
@@ -159,47 +158,54 @@ namespace PreworkCodeChallenges
 
         private static void Problem4()
         {
-            //TODO - ask the user for the array input? 
+            // Ask the user for the length of the array:
+            Console.WriteLine("What is the length (number of rows) of your array?");
 
-            //Defining and initializing a multidimentional array, with the sample array:
+            // Convert the user input from string to int:
+            int rowsNumber = Convert.ToInt32(Console.ReadLine());
 
-            int[,] myArray = new int[3, 5] {
-                { 1, 2, 3, 4, 5 },
-                { 6, 7, 8, 9, 10 },
-                { 11, 12, 13, 14, 15 }
-            };
+            // Ask the user for the width of the array:
+            Console.WriteLine("What is the width (number of columns) of your array?");
 
-            Console.WriteLine(myArray.GetLength(0));
-            Console.WriteLine(myArray.GetLength(1));
+            // Convert the user input from string to int:
+            int columnsNumber = Convert.ToInt32(Console.ReadLine());
 
-            //Defining global variables:
-            
+            // Declare a 2D array with the user input for rows and columns:
+            int[,] myArray = new int[rowsNumber, columnsNumber];
+
+            int rowLength = myArray.GetLength(0);
+            int colLength = myArray.GetLength(1);
+
+            // Populate the 2D array with random numbers:
+
+            // Instantiate random number generator:
+            var rand = new Random();
 
             //Defining sumArray, an integer array of all the row sums:
-            int[] sumArray = new int[myArray.GetLength(0)];
+            int[] sumArray = new int[rowLength];
 
-            //Nested for statement? Access the first row of the array, loop through it and sum the numbers:
+            // Display the 2D matrix:
+            Console.WriteLine("A 2D matrix was created using random numbers:");
 
-            for (int i = 0; i < myArray.GetLength(0); i++)
+            for (int i = 0; i < rowsNumber; i++)
             {
                 int rowSum = 0;
 
-                for (int j = 0; j < myArray.GetLength(1); j++)
+                for (int j = 0; j < columnsNumber; j++)
                 {
-                    //calculate sum of row
-                    //Insert row sum into sumArray
-                    rowSum += myArray[i,j];
-
+                    myArray[i, j] = rand.Next(-10, 10);
+                    rowSum += myArray[i, j];
+                    Console.Write(string.Format("{0} ", myArray[i, j]));
                 }
-                sumArray[i] = rowSum;
+                Console.WriteLine();
 
+                sumArray[i] = rowSum;
             }
 
+            // The final output - a sum of each row in the 2D array: 
+            Console.WriteLine("The sum of rows in your 2D array is:");
+            Console.WriteLine("[{0}]", string.Join(", ", sumArray));
 
-            string returnString = String.Join(",", sumArray.Select(p => p.ToString()).ToArray());
-;
-
-            Console.WriteLine(returnString);
         }
     }
 }
