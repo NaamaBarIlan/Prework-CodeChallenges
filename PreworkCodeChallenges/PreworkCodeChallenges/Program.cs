@@ -7,7 +7,6 @@ namespace PreworkCodeChallenges
     {
         static void Main(string[] args)
         {
-            /*
             problem1();
 
             Console.Clear();
@@ -19,7 +18,7 @@ namespace PreworkCodeChallenges
             Problem3();
 
             Console.Clear();
-            */
+
             Problem4();
             
         }
