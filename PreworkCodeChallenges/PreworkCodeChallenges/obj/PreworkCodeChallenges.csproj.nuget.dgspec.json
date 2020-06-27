@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\baril\\Source\\Repos\\NaamaBarIlan\\Prework-CodeChallenges\\PreworkCodeChallenges\\PreworkCodeChallenges\\PreworkCodeChallenges.csproj": {}
+    "C:\\Users\\baril\\source\\repos\\NaamaBarIlan\\Prework-CodeChallenges\\PreworkCodeChallenges\\PreworkCodeChallenges\\PreworkCodeChallenges.csproj": {}
   },
   "projects": {
-    "C:\\Users\\baril\\Source\\Repos\\NaamaBarIlan\\Prework-CodeChallenges\\PreworkCodeChallenges\\PreworkCodeChallenges\\PreworkCodeChallenges.csproj": {
+    "C:\\Users\\baril\\source\\repos\\NaamaBarIlan\\Prework-CodeChallenges\\PreworkCodeChallenges\\PreworkCodeChallenges\\PreworkCodeChallenges.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\baril\\Source\\Repos\\NaamaBarIlan\\Prework-CodeChallenges\\PreworkCodeChallenges\\PreworkCodeChallenges\\PreworkCodeChallenges.csproj",
+        "projectUniqueName": "C:\\Users\\baril\\source\\repos\\NaamaBarIlan\\Prework-CodeChallenges\\PreworkCodeChallenges\\PreworkCodeChallenges\\PreworkCodeChallenges.csproj",
         "projectName": "PreworkCodeChallenges",
-        "projectPath": "C:\\Users\\baril\\Source\\Repos\\NaamaBarIlan\\Prework-CodeChallenges\\PreworkCodeChallenges\\PreworkCodeChallenges\\PreworkCodeChallenges.csproj",
+        "projectPath": "C:\\Users\\baril\\source\\repos\\NaamaBarIlan\\Prework-CodeChallenges\\PreworkCodeChallenges\\PreworkCodeChallenges\\PreworkCodeChallenges.csproj",
         "packagesPath": "C:\\Users\\baril\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\baril\\Source\\Repos\\NaamaBarIlan\\Prework-CodeChallenges\\PreworkCodeChallenges\\PreworkCodeChallenges\\obj\\",
+        "outputPath": "C:\\Users\\baril\\source\\repos\\NaamaBarIlan\\Prework-CodeChallenges\\PreworkCodeChallenges\\PreworkCodeChallenges\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\baril\\AppData\\Roaming\\NuGet\\NuGet.Config",
