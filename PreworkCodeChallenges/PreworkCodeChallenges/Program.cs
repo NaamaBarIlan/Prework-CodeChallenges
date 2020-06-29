@@ -27,22 +27,20 @@ namespace PreworkCodeChallenges
         {
             // Request 5 numbers from 1-10 from the user:
 
-            Console.Write("Please select five numbers between 1-10:");
+            Console.WriteLine("Problem 1: Array Max Result");
+            Console.Write("Please enter five numbers between 1-10:");
 
             string userValues = Console.ReadLine();
 
-            //Another option to convert the whole string
-            //int userString = Convert.ToInt32(userValues);
+            // Declare and initialize an array with the user's input:
 
-            // Declare and initialize an array with the user's input, converted from char to double:
-            // QUESTION - why couldn't I convert from char to int? Could I refactor this part?
+            int[] numbersArray = new int[userValues.Length];
 
-            double[] numbersArray = new double[5];
-                numbersArray[0] = char.GetNumericValue(userValues[0]);
-                numbersArray[1] = char.GetNumericValue(userValues[1]);
-                numbersArray[2] = char.GetNumericValue(userValues[2]);
-                numbersArray[3] = char.GetNumericValue(userValues[3]);
-                numbersArray[4] = char.GetNumericValue(userValues[4]);
+            // Loop through the string, convert each char to int and assign to the numbers array. 
+            for (int i = 0; i < userValues.Length; i++)
+            {
+                numbersArray[i] = (int)Char.GetNumericValue(userValues[i]);
+            }
 
             // Clear the screen:
             Console.Clear();
@@ -71,11 +69,13 @@ namespace PreworkCodeChallenges
 
             int numScore = selectedNum * numFrequncy;
 
-            Console.WriteLine("The score of the number you selected is " + numScore);          
+            Console.WriteLine("The score of the number you selected is " + numScore);
+            Console.ReadLine();
         }
 
         private static void Problem2()
         {
+            Console.WriteLine("Problem 2: Leap Year Calculator");
             Console.WriteLine("Type in a year to find out if it's a leap year: ");
             int inputYear = Convert.ToInt32(Console.ReadLine());
 
@@ -100,30 +100,43 @@ namespace PreworkCodeChallenges
 
         private static void Problem3()
         {
-            //TODO - need to ask the user for the array input? 
+            Console.WriteLine("Problem 3: Perfect Sequence");
+            //Ask the user for the array input:
+            Console.WriteLine("Please enter an array of numbers (for example: 1, 3, 2): ");
+            
+            string inputNumbers = Console.ReadLine();
 
-            //Defining and initializing an array, with the sample array to start:
-            int[] numArray = new int[] { 1, 3, 2 };
+            // Remove spaces and commas from the string:
+            inputNumbers = inputNumbers.Replace(",", "").Replace(" ", "");
 
-            //Defining global variables:
-            string message = "";
+            // Convert the input from a string into a char array:
+            char[] inputChars = inputNumbers.ToCharArray();
+
+            // Declaring an int array:
+            int[] numArray = new int[inputChars.Length];
+
+            // Loop through the inputChar array, convert car to int and insert into numArray:
+            for (int i = 0; i < inputChars.Length; i++)
+            {
+                numArray[i] = (int)Char.GetNumericValue(inputChars[i]);
+            }
+
+            //Loop through the array to check if any of the numbers are non-negative:
+
             bool nonNegative = true;
-            int sumArray = 0;
-            int productArray = 1;
-
-            //Loop through the array to check all numbers are non-negative:
 
             for (int i = 0; i < numArray.Length; i++)
             {
                 if (numArray[i] < 0)
                 {
                     nonNegative = false;
-                    //Console.WriteLine(nonNegative);
                     break;
                 }
             }
 
             //Loop through the array to get the sum of all the numbers:
+
+            int sumArray = 0;
 
             for (int i = 0; i < numArray.Length; i++)
             {
@@ -132,6 +145,8 @@ namespace PreworkCodeChallenges
             //Console.WriteLine($"The sum of all numbers: {sumArray}");
 
             //Loop through the array to get the product of all the numbers:
+
+            int productArray = 1;
 
             for (int i = 0; i < numArray.Length; i++)
             {
@@ -142,14 +157,16 @@ namespace PreworkCodeChallenges
             //If statement for a Yes/No return:
             //If all the numbers are non-negative && sum == product return Yes, else return "No"
 
+            string message = "";
+
             if (nonNegative && sumArray == productArray)
             {
-                message = "Yes";
+                message = "Yes, this is a perfect sequence!";
 
             }
             else
             {
-                message = "No";
+                message = "No, this is not a perfect sequence.";
             }
             Console.WriteLine(message);
             Console.ReadLine();
@@ -157,6 +174,8 @@ namespace PreworkCodeChallenges
 
         private static void Problem4()
         {
+            Console.WriteLine("Problem 4: Sum of Rows");
+
             // Ask the user for the length of the array:
             Console.WriteLine("What is the length (number of rows) of your array?");
 
@@ -168,6 +187,7 @@ namespace PreworkCodeChallenges
 
             // Convert the user input from string to int:
             int columnsNumber = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
 
             // Declare a 2D array with the user input for rows and columns:
             int[,] myArray = new int[rowsNumber, columnsNumber];
@@ -184,7 +204,7 @@ namespace PreworkCodeChallenges
             int[] sumArray = new int[rowLength];
 
             // Display the 2D matrix:
-            Console.WriteLine("A 2D matrix was created using random numbers:");
+            Console.WriteLine("The 2D matrix that was generated using random numbers:");
 
             for (int i = 0; i < rowsNumber; i++)
             {
@@ -200,6 +220,7 @@ namespace PreworkCodeChallenges
 
                 sumArray[i] = rowSum;
             }
+            Console.WriteLine();
 
             // The final output - a sum of each row in the 2D array: 
             Console.WriteLine("The sum of rows in your 2D array is:");
