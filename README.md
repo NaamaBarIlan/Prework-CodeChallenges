@@ -3,9 +3,9 @@ The pre-work code challenges for Code 401: ASP.NET Core
 
 ## Problem 1
 
-1. Name of Challenge: Array Max Result
+Name of Challenge: Array Max Result
 
-2. Instructions of Challenge: 
+Instructions of Challenge: 
 
 **Problem Statement**
 
@@ -25,13 +25,13 @@ An array of integers, and the number chosen.
 **Sample Output**
 8
 
-3. Screen capture of successful output:
+Screen capture of successful output:
 
 ## Problem 2
 
-1. Name of Challenge: Leap Year Calculator
+Name of Challenge: Leap Year Calculator
 
-2. Instructions of Challenge: 
+Instructions of Challenge: 
 
 **Problem Statement**
 Given a year, report if it is a leap year.
@@ -46,13 +46,13 @@ For example, 1997 is not a leap year, but 1996 is. 1900 is not a leap year, but 
 
 Note: This is not a trick problem. Edge cases do not need to be taken into consideration when creating a solution.
 
-3. Screen capture of successful output:
+Screen capture of successful output:
 
 ## Problem 3  
 
-1. Name of Challenge: Perfect Sequence
+Name of Challenge: Perfect Sequence
 
-2. Instructions of Challenge: 
+Instructions of Challenge: 
 
 **Problem Statement**
 Given an array, return “Yes” if the sequence is considered a perfect sequence. Otherwise, return “No”
@@ -72,13 +72,13 @@ Yes
 **Explanation**
 1 * 3 * 2 = 6 && 1 + 3 + 2 = 6
 
-3. Screen capture of successful output:
+Screen capture of successful output:
 
 ## Problem 4  
 
-1. Name of Challenge: Sum of Rows
+Name of Challenge: Sum of Rows
 
-2. Instructions of Challenge: 
+Instructions of Challenge: 
 
 **Problem Statement**
 Given a matrix of integers. Return the sum of each row in a single dimensional array.
@@ -100,4 +100,4 @@ int[,] myArray = new int[3, 5] { { 1, 2, 3, 4, 5 }, { 6, 7, 8, 9, 10 }, { 11, 12
 **Sample Output**
 {15,40,65} <– an integer array
 
-3. Screen capture of successful output:
+Screen capture of successful output:
