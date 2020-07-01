@@ -42,9 +42,6 @@ namespace PreworkCodeChallenges
                 numbersArray[i] = (int)Char.GetNumericValue(userValues[i]);
             }
 
-            // Clear the screen:
-            Console.Clear();
-
             // Ask the user to select a number from the array:
             Console.WriteLine($"Now select one number out of your five numbers: " +
                 $"{numbersArray[0]}," +
@@ -79,8 +76,6 @@ namespace PreworkCodeChallenges
             Console.WriteLine("Type in a year to find out if it's a leap year: ");
             int inputYear = Convert.ToInt32(Console.ReadLine());
 
-            Console.Clear();
-
             if (inputYear % 4 == 0 && inputYear % 100 != 0)
             {
                 Console.WriteLine($"Yes, {inputYear} is a leap year!");
@@ -102,7 +97,7 @@ namespace PreworkCodeChallenges
         {
             Console.WriteLine("Problem 3: Perfect Sequence");
             //Ask the user for the array input:
-            Console.WriteLine("Please enter an array of numbers (for example: 1, 3, 2): ");
+            Console.WriteLine("Please enter an array of numbers (for example: 1, 3, 5, 7): ");
             
             string inputNumbers = Console.ReadLine();
 
@@ -226,6 +221,7 @@ namespace PreworkCodeChallenges
             Console.WriteLine("The sum of rows in your 2D array is:");
             Console.WriteLine("[{0}]", string.Join(", ", sumArray));
 
+            Console.ReadLine();
         }
     }
 }
