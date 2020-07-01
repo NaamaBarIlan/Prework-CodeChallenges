@@ -3,7 +3,7 @@ The pre-work code challenges for Code 401: ASP.NET Core
 
 ## Problem 1
 
-Name of Challenge: Array Max Result
+**Name of Challenge: Array Max Result**
 
 Instructions of Challenge: 
 
@@ -27,10 +27,11 @@ An array of integers, and the number chosen.
 8
 
 Screen capture of successful output:
+![problem1](https://github.com/NaamaBarIlan/Prework-CodeChallenges/blob/master/PreworkCodeChallenges/PreworkCodeChallenges/images/problem1.png)
 
 ## Problem 2
 
-Name of Challenge: Leap Year Calculator
+**Name of Challenge: Leap Year Calculator**
 
 Instructions of Challenge: 
 
@@ -48,10 +49,11 @@ For example, 1997 is not a leap year, but 1996 is. 1900 is not a leap year, but 
 Note: This is not a trick problem. Edge cases do not need to be taken into consideration when creating a solution.
 
 Screen capture of successful output:
+![problem2](https://github.com/NaamaBarIlan/Prework-CodeChallenges/blob/master/PreworkCodeChallenges/PreworkCodeChallenges/images/problem2.png)
 
 ## Problem 3  
 
-Name of Challenge: Perfect Sequence
+**Name of Challenge: Perfect Sequence**
 
 Instructions of Challenge: 
 
@@ -74,10 +76,11 @@ Yes
 1 * 3 * 2 = 6 && 1 + 3 + 2 = 6
 
 Screen capture of successful output:
+![problem3](https://github.com/NaamaBarIlan/Prework-CodeChallenges/blob/master/PreworkCodeChallenges/PreworkCodeChallenges/images/problem3.png)
 
 ## Problem 4  
 
-Name of Challenge: Sum of Rows
+**Name of Challenge: Sum of Rows**
 
 Instructions of Challenge: 
 
@@ -102,3 +105,4 @@ int[,] myArray = new int[3, 5] { { 1, 2, 3, 4, 5 }, { 6, 7, 8, 9, 10 }, { 11, 12
 {15,40,65} <– an integer array
 
 Screen capture of successful output:
+![problem4](https://github.com/NaamaBarIlan/Prework-CodeChallenges/blob/master/PreworkCodeChallenges/PreworkCodeChallenges/images/problem4.png)
