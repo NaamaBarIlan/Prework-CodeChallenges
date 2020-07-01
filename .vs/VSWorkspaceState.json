@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\PreworkCodeChallenges"
+    "\\PreworkCodeChallenges",
+    "\\PreworkCodeChallenges\\PreworkCodeChallenges"
   ],
-  "SelectedNode": "\\PreworkCodeChallenges\\PreworkCodeChallenges.sln",
+  "SelectedNode": "\\PreworkCodeChallenges\\PreworkCodeChallenges\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

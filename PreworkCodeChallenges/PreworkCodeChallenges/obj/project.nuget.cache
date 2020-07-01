@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2DXIkOV07Y5F+RW0tWwQQmXnSmkV+AzbKXGXlVnlOVZcBJB8VRu7DtezgII47g+b8T1LyjCr8mHyVBLdtsom+A==",
+  "dgSpecHash": "AvDJZ1Qb7VYhEHO/s1JN+Z+OwvoPoVE36CEeTo0Fglac0643LrJzQyS+Icz2OUcRpQ2a5tsk2Mb3+tNIOHYcmA==",
   "success": true,
   "projectFilePath": "C:\\Users\\baril\\source\\repos\\NaamaBarIlan\\Prework-CodeChallenges\\PreworkCodeChallenges\\PreworkCodeChallenges\\PreworkCodeChallenges.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\baril\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
